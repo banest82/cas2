@@ -1,0 +1,18 @@
+using System;
+
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string bane = "the \"use\" of quotation create difficulties";
+            string bane1 = @"the ""use"" of quotation create difficulties";
+                Console.WriteLine(bane);
+                Console.WriteLine(bane1);
+            Console.ReadLine();
+
+        }
+    }
+}
