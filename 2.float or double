@@ -1,0 +1,18 @@
+using System;
+
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            float broj1 = 12.345F;
+            float broj2 = 3456.091F;
+            double broj3 = 34.567891054;
+            double broj4 = 8923.12345678;
+            Console.WriteLine("broj1 je {0}, broj2 je {1}, broj3 je {2}, broj4 je {3}", broj1, broj2, broj3, broj4);
+            Console.ReadKey();
+        }
+    }
+}
