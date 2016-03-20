@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            sbyte broj1 = -115;
+            byte broj2 = 97;
+            short broj3 = -10000;
+            ushort broj4 = 52000;
+            int broj5 = 4000000;
+            Console.WriteLine("broj1 je {0}, broj2 je {1}, broj3 je {2}, broj4 je {3}, broj5 je {4}", broj1, broj2, broj3, broj4,broj5);
+            Console.ReadLine();
+
+        }
+    }
+}
