@@ -1,0 +1,19 @@
+using System;
+
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string he = "Hello";
+            string lo = "World";
+            object helo = he + " " + lo;
+            string hw = Convert.ToString(helo);
+                Console.WriteLine(hw);
+            Console.ReadLine();
+
+        }
+    }
+}
