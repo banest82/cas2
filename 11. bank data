@@ -1,0 +1,23 @@
+using System;
+
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string FirstName = "Bane";
+            string MiddleName = "M";
+            string LastName = "Stajic";
+            long Balance = 158475685;
+            string IBan = "840-57800005-54";
+            long card1 = 3009982722231;
+            long card2 = 3009982722241;
+            long card3 = 3007982722231;
+            Console.WriteLine("First name: {0}\nMiddle Name: {1}\nLast Name: {2}\nBalance: {3}\nIBan: {4}\nCard 1: {5}\nCard 2: {6}\nCard 3: {7}"
+                , FirstName, MiddleName, LastName, Balance, IBan, card1, card2, card3 );
+            Console.ReadLine();
+        }
+    }
+}
