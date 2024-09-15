@@ -1,16 +1,1 @@
-using System;
 
-
-namespace ConsoleApplication2
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int char1 = 0xFE;
-            Console.WriteLine("{0}",char1);
-            Console.ReadKey();
-
-        }
-    }
-}
